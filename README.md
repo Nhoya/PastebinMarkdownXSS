@@ -58,7 +58,7 @@ Fun fact: during an event I was talking about CTFs and someone said me: "I don't
 - 10/04/18 I sent a reply containing a new PoC with a bypass for the current patch
 - 11/04/18 Patch for the second PoC released
 
-## Interested on my works?
+## Interested in my works?
 
 Follow me on twitter `@0x7a657461` and linked.in `0xzeta`
 
