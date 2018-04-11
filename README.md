@@ -62,4 +62,4 @@ Fun fact: during an event I was talking about CTFs and someone said me: "I don't
 
 Follow me on twitter `@0x7a657461` and linked.in `0xzeta`
 
-BTC ADDRESS: `346dDn4BjTodMkGkb5iTyoJ5Z2wi9g9QiM`
+BTC Address: `346dDn4BjTodMkGkb5iTyoJ5Z2wi9g9QiM`
