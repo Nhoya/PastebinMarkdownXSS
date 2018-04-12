@@ -44,7 +44,7 @@ and, again, I got an alert :D
 
 ## Conclusion
 
-Markdown XSS are real and tons of services are affected due to unsanitized output. If you mantain a project that is using a markdown parser I suggest you to read [this](https://github.com/showdownjs/showdown/wiki/Markdown%27s-XSS-Vulnerability-(and-how-to-mitigate-it)), if you are a pentester or a bug hunter I suggest you to starting consider this kind of vulnerability ([I even got a CVE :P](https://www.cvedetails.com/cve/CVE-2017-1000459/))
+Markdown XSS are real and tons of services are affected due to unsanitized output. If you maintain a project that is using a markdown parser I suggest you to read [this](https://github.com/showdownjs/showdown/wiki/Markdown%27s-XSS-Vulnerability-(and-how-to-mitigate-it)), if you are a pentester or a bug hunter I suggest you to starting consider this kind of vulnerability ([I even got a CVE :P](https://www.cvedetails.com/cve/CVE-2017-1000459/))
 
 Fun fact: during an event, I was talking about CTFs and someone told me: "I don't play CTFs because they are not real world scenarios" :)
 
@@ -53,7 +53,7 @@ Fun fact: during an event, I was talking about CTFs and someone told me: "I don'
 - 22/12/17 Vulnerability found
 - 23/12/17 Vulnerability reported
 - 24/12/17 First contact with the administrators, they were kind enough to provide me with a premium lifetime account and the promise to patch ASAP
-- 02/04/18 I sent a mail to the adminstrators to solicit the patch and ask information about the disclosure details
+- 02/04/18 I sent a mail to the administrators to solicit the patch and ask information about the disclosure details
 - 10/04/18 I received a mail saying that the vulnerability was patched
 - 10/04/18 I sent a reply containing a new PoC with a bypass for the current patch
 - 11/04/18 Patch for the second PoC released
