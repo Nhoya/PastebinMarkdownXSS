@@ -61,5 +61,3 @@ Fun fact: during an event, I was talking about CTFs and someone told me: "I don'
 ## Interested in my works?
 
 Follow me on twitter `@0x7a657461` and linkedin `0xzeta`
-
-BTC Address: `346dDn4BjTodMkGkb5iTyoJ5Z2wi9g9QiM`
