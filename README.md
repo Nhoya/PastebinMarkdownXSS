@@ -2,7 +2,7 @@
 
 pastebin.com XSS via unsanitized markdown output
 
-We all love Markdown, right? It's a fast ad user-friendly way to beautify our documentation. Well, all that glitters is not gold, in this case not for system administrators.
+We all love Markdown, right? It's a fast and user-friendly way to beautify our documentation. Well, all that glitters is not gold, in this case not for system administrators.
 Some time ago playing the [Hack.lu 2017 CTF](https://2017.hack.lu/ctf/) event with [my team](https://jbzteam.github.io) we solved an interesting challenge called Mitsune were a misconfigured instance of [mitsune](https://github.com/lepture/mistune) was given and we had to send a malicious link containing an XSS payload to an administrator to steal their cookies. You can find two writeup with different approaches [here](https://www.pwndiary.com/write-ups/hack-lu-ctf-2017-mistune-write-up-web150/) and [here](https://rawsec.ml/en/Hacklu-2017-write-up/#150-mistune-web).
 
 After the end of the CTF, my teammate Donato Onofri and I started to investigate more on how this vulnerability affects worldwide markdown services and we ended up with multiple reports ([here](https://github.com/leanote/leanote/issues/676), [here](https://github.com/adtac/commento/issues/154) and [here](https://github.com/leanote/leanote/issues/719)) But as you can see all of those are relatively small services.
