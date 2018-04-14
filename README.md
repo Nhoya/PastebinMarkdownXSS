@@ -48,6 +48,8 @@ Markdown XSS are real and tons of services are affected due to unsanitized outpu
 
 Fun fact: during an event, I was talking about CTFs and someone told me: "I don't play CTFs because they are not real world scenarios" :)
 
+Note: As pointed out [here](/issues/3) the first payload,on recent browsers, will lose the context of the webpage where it was triggered.  
+ 
 ## Timeline
 
 - 22/12/17 Vulnerability found
