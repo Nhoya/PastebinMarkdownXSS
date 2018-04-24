@@ -1,6 +1,6 @@
-# pastebin.com Markdown XSS
+# Markdown XSS in pastebin.com and reddit.com
 
-pastebin.com XSS via unsanitized markdown output
+XSS via unsanitized markdown output in pastebin.com and reddit.com
 
 We all love Markdown, right? It's a fast and user-friendly way to beautify our documentation. Well, all that glitters is not gold, in this case not for system administrators.
 Some time ago playing the [Hack.lu 2017 CTF](https://2017.hack.lu/ctf/) event with [my team](https://jbzteam.github.io) we solved an interesting challenge called Mitsune were a misconfigured instance of [mitsune](https://github.com/lepture/mistune) was given and we had to send a malicious link containing an XSS payload to an administrator to steal their cookies. You can find two writeup with different approaches [here](https://www.pwndiary.com/write-ups/hack-lu-ctf-2017-mistune-write-up-web150/) and [here](https://rawsec.ml/en/Hacklu-2017-write-up/#150-mistune-web).
@@ -50,6 +50,10 @@ Fun fact: during an event, I was talking about CTFs and someone told me: "I don'
 
 Note: As pointed out [here](/issues/3) the first payload,on recent browsers, will lose the context of the webpage where it was triggered.  
  
+## BONUS
+
+Publishing this writeup on reddit.com we found out that the new interface was affected by this vulnerability :)
+
 ## Timeline
 
 - 22/12/17 Vulnerability found
@@ -59,6 +63,10 @@ Note: As pointed out [here](/issues/3) the first payload,on recent browsers, wil
 - 10/04/18 I received a mail saying that the vulnerability was patched
 - 10/04/18 I sent a reply containing a new PoC with a bypass for the current patch
 - 11/04/18 Patch for the second PoC released
+- 13/04/18 Vulnerability found on reddit.com
+- 13/04/18 Vulnerability reported to reddit team
+- 13/04/18 First hotfix released
+- 23/04/18 Final path deployed
 
 ## Interested in my works?
 
